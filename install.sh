@@ -54,6 +54,10 @@ Choose OS:
 "
     printf "choose/> "
     read choose
+    # shellcheck disable=SC1073
+    # shellcheck disable=SC1072
+    # shellcheck disable=SC1020
+    # shellcheck disable=SC1009
     if [[ "$choose" == '1']];
     then
       try1
